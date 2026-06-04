@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+{% endblock %}
+
+{% block main %}
+
+{% include 'blog/include/header.html'%}
+    <div class="container">
+        <div class="main">
+            <h1>hello and welcome to this blog site</h1>
+            <p>this site is about blogs that you can see some blogs </p>
+            <div class="button">
+                <a href=""> see blogs</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
