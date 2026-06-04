@@ -149,6 +149,12 @@ b {
     gap: 5%;
     margin-top: 2%;
     border-radius: 30px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.container .blog_place .box:hover{
+    box-shadow: 0px 0px 40px green;
 }
 
 .container .blog_place .box img{
