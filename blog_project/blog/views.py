@@ -14,7 +14,7 @@ def det_blog(request,name):
     for i in base.base:
         print(type(name),type(i['id']))
         if name == i['id']:
-            context['i'] = 0
+            context['i'] = i
     
     if context['i'] != 0:
         return render(request,'blog/blog_det.html',context)
