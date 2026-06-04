@@ -11,7 +11,7 @@
 <div class="container">
     <div class="blog_place">
         {% for i in a%}
-        <div class="box" onclick="location.href = 'courses/{{ i.title }}'">
+        <div class="box" onclick="location.href = '{{ i.id }}'">
             <img src="{% static 'img/Logo_ligne_B_Narbonne.png' %}" alt="">
             <h1>{{i.title}}</h1>
             
