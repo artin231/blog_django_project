@@ -136,6 +136,7 @@ b {
     height: 100%;
     gap: 5%;
     padding: 5%;
+    overflow: auto;
 }
 
 .container .blog_place .box{
