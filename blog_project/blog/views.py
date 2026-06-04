@@ -19,3 +19,6 @@ def det_blog(request,name):
     if context['i'] != 0:
         return render(request,'blog/blog_det.html',context)
     raise Http404()
+
+def about(request):
+    return render(request,'blog/about_us.html')
