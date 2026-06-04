@@ -1,7 +1,7 @@
 # blog_django_project
 a blog_site made with html,css and django framework of python 
 
-<h1 style="color:red">IMPORTAND : this site is not complited! </h1>
+<h1 style="color:red;">IMPORTAND : this site is not complited! </h1>
 <hr>
 <h1> how to run it ?</h1>
 
