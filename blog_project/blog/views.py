@@ -22,3 +22,6 @@ def det_blog(request,name):
 
 def about(request):
     return render(request,'blog/about_us.html')
+
+def make_blog(request):
+    return HttpResponse('hello')
