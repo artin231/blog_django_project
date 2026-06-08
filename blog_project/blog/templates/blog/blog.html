@@ -11,10 +11,10 @@
 <div class="container">
     <div class="blog_place">
         {% for i in a%}
-        <div class="box" onclick="location.href = '{{ i.id }}'">
-            <img src="{% static i.img_url %}" alt="">
-            <h1>{{i.title}}</h1>
-            
+        <div class="box" onclick="location.href = '{{ i.name_link }}'">
+            <img src="{% static 'img/Logo_ligne_B_Narbonne.png' %}" alt="">
+            <h1>{{ i.title }}</h1>
+            <p>{{ i.short_des }}</p>
         </div>
         {% endfor %}
     </div>

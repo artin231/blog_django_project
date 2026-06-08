@@ -11,8 +11,10 @@
 
 <div class="container">
     <div class="inner">
-        <img class="img_blog" src="{% static i.img_url %}" alt="">
+        <img class="img_blog" src="{% static 'img/Logo_ligne_B_Narbonne.png' %}" alt="">
         <h1>{{ i.title }}</h1>
+        <p>{{ i.description }}</p>
+        <h3>{{ i.author }}</h3>
         <p>{{ i.description }}</p>
     </div>
 </div>
