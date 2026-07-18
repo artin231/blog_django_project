@@ -3,18 +3,28 @@ a blog_site made with html,css and django framework of python
 
 <h1 style="color:red;">IMPORTAND : this site is not finished! </h1>
 <hr>
-<h1> how to run it ?</h1>
 
-<h2>in windows:</h2>
-<p> cd blog_project </p>
-<p>python -m venv venv</p>
-<p> venv/Scripts/activate </p>
-<p> pip install django </p>
-<p> python manage.py runserver </p>
+# How to run this project
+##  🪟 For Windows in cmd
+```
+git clone https://github.com/artin231/blog_django_project.git
+cd blog_django_project 
+cd blog_project
+python -m venv venv
+venv\Scripts\activate
+pip install django
+python manage.py ruserver
+```
 
-<h2>in linux:</h2>
-<p> cd blog_project </p>
-<p> python3 -m venv venv</p>
-<p> source venv/bin/activate </p>
-<p> pip install django </p>
-<p> python3 manage.py runserver </p>
+---
+
+## 🐧 For Gnu/Linux in bash
+```
+git clone https://github.com/artin231/blog_django_project.git
+cd blog_django_project 
+cd blog_project
+python3 -m venv venv
+source venv\bin\activate
+pip install django
+python3 manage.py ruserver
+```
